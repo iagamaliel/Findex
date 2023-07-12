@@ -2269,11 +2269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\Findex\\Findex\\Findex.WebApi\\Findex.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\versionar\\Findex\\Findex.WebApi\\Findex.WebApi.csproj",
       "projectName": "Findex.WebApi",
-      "projectPath": "C:\\Users\\Caleb\\Desktop\\Findex\\Findex\\Findex.WebApi\\Findex.WebApi.csproj",
+      "projectPath": "C:\\Users\\Caleb\\Desktop\\versionar\\Findex\\Findex.WebApi\\Findex.WebApi.csproj",
       "packagesPath": "C:\\Users\\Caleb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caleb\\Desktop\\Findex\\Findex\\Findex.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\Caleb\\Desktop\\versionar\\Findex\\Findex.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -2295,8 +2295,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Caleb\\Desktop\\Findex\\Findex\\Findex.Infrastructure\\Findex.Utils.csproj": {
-              "projectPath": "C:\\Users\\Caleb\\Desktop\\Findex\\Findex\\Findex.Infrastructure\\Findex.Utils.csproj"
+            "C:\\Users\\Caleb\\Desktop\\versionar\\Findex\\Findex.Infrastructure\\Findex.Utils.csproj": {
+              "projectPath": "C:\\Users\\Caleb\\Desktop\\versionar\\Findex\\Findex.Infrastructure\\Findex.Utils.csproj"
             }
           }
         }

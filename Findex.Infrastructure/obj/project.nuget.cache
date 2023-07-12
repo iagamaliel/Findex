@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ygrQRjn7HkyYNKvvDZIB/l3SPydAYywBHKxGsWZfy0CKOf0BIfw26iNuRETW+qqdJokVLZfXgiq5yfLbaQXJMA==",
+  "dgSpecHash": "m+kV7Oz9mMMUmj5F96uzYnapW4CP4LCgEcp/JGOZJKygN/yIqwAu5APLsk/y0e+bxMGNHso3ERX5zNHnIwsZ0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Caleb\\Desktop\\Findex\\Findex\\Findex.Infrastructure\\Findex.Utils.csproj",
+  "projectFilePath": "C:\\Users\\Caleb\\Desktop\\versionar\\Findex\\Findex.Infrastructure\\Findex.Utils.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Caleb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Caleb\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

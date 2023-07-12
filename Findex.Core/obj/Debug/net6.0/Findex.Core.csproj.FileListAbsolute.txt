@@ -1,0 +1,12 @@
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\bin\Debug\net6.0\Findex.Core.deps.json
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\bin\Debug\net6.0\Findex.Core.dll
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\bin\Debug\net6.0\Findex.Core.pdb
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\obj\Debug\net6.0\Findex.Core.csproj.AssemblyReference.cache
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\obj\Debug\net6.0\Findex.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\obj\Debug\net6.0\Findex.Core.AssemblyInfoInputs.cache
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\obj\Debug\net6.0\Findex.Core.AssemblyInfo.cs
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\obj\Debug\net6.0\Findex.Core.csproj.CoreCompileInputs.cache
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\obj\Debug\net6.0\Findex.Core.dll
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\obj\Debug\net6.0\refint\Findex.Core.dll
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\obj\Debug\net6.0\Findex.Core.pdb
+C:\Users\Caleb\Desktop\Findex\Findex\Findex.Core\obj\Debug\net6.0\ref\Findex.Core.dll

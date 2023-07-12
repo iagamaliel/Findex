@@ -15,12 +15,11 @@ namespace Findex.Utils
             var concreteValue = (JsonFormat)value;
             var record = concreteValue.Records.FirstOrDefault();
 
-            List<string> destinatarios = new List<string>();
+            List<string> destinatarios = new();
 
             foreach (var email in record.Ses.Mail.Destination)
             {
-                if (!string.IsNullOrEmpty(email) && email.IndexOf('@') > 0)
-                    destinatarios.Add(email.Substring(0, email.IndexOf('@')));
+                destinatarios.Add(email.IndexOf('@') > 0 ? email.Substring(0, email.IndexOf('@')): email);
             };
 
             var result = new DataEmail
@@ -31,7 +30,7 @@ namespace Findex.Utils
                 && record.Ses.Receipt.DmarcVerdict.Status == "PASS"),
                 Mes = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(record.Ses.Mail.Timestamp.Month),
                 Retrasado = record.Ses.Receipt.ProcessingTimeMillis > 1000,
-                Emisor = record.Ses.Mail.Source.Substring(0, record.Ses.Mail.Source.IndexOf('@')),
+                Emisor = record.Ses.Mail.Source.IndexOf('@') > 0 ? record.Ses.Mail.Source.Substring(0, record.Ses.Mail.Source.IndexOf('@')) : record.Ses.Mail.Source,
                 Receptor = destinatarios
             };
 

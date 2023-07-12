@@ -29,7 +29,7 @@ namespace Findex.Utils
                 Virus = record.Ses.Receipt.VirusVerdict.Status == "PASS",
                 Dns = (record.Ses.Receipt.SpfVerdict.Status == "PASS" && record.Ses.Receipt.DkimVerdict.Status == "PASS"
                 && record.Ses.Receipt.DmarcVerdict.Status == "PASS"),
-                Mes = record.Ses.Mail.Timestamp.Month.ToString(),
+                Mes = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(record.Ses.Mail.Timestamp.Month),
                 Retrasado = record.Ses.Receipt.ProcessingTimeMillis > 1000,
                 Emisor = record.Ses.Mail.Source.Substring(0, record.Ses.Mail.Source.IndexOf('@')),
                 Receptor = destinatarios
